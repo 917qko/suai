@@ -9,7 +9,7 @@ def exponential_func(x, a=3):
 
 X=np.linspace(-2, 2, 20) 
 Y1=[exponential_func(x,3) for x in X] 
-Y2=[exponential_func(x,0.334) for x in X]
+Y2=[exponential_func(x,0.338) for x in X]
 Y3=[exponential_func(x,1) for x in X]
 
 plt.xlabel('                                                                                              t')
